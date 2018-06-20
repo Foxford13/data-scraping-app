@@ -1,0 +1,27 @@
+{
+  "name": "data-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+	"scripts": {
+	  "start": "node server.js"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Foxford13/data-scraping-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Foxford13/data-scraping-app/issues"
+  },
+  "homepage": "https://github.com/Foxford13/data-scraping-app#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "lodash": "^4.17.10",
+    "morgan": "^1.9.0"
+  }
+}
